@@ -1,0 +1,389 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://grannyhorror.com/images/homepage-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+header {
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.logo-header {
+    height: 250px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 80%;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;    
+    gap: 25px;
+}
+
+
+.item {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+p {
+    color: #fff;
+    margin: 10px;
+}
+
+
+.icons {
+    color: #fff;
+    font-size: 27px;
+}
+
+
+section {
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+    text-align: center;
+    line-height: 1.85em;
+    opacity: 0.90;
+
+}
+
+footer {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+hr  {
+    width: 500px;
+    border: 1px groove #afafaf;
+    margin: auto;
+}
+
+
+.other-logo {
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    color: #ffffff9e;
+    line-height: 1.85;
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 1007px) {
+
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 980px;
+    }
+
+    section {
+        width: 540px;
+        margin: auto;
+    }
+
+    .item {
+        width: 500px;
+        height: 200px;
+    }
+}
+
+
+
+
+@media (max-width: 800px) {
+    section {
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    main {
+        width: 100%;
+    }
+    .logo-header {
+        width: 500px;
+    }
+    section {
+        width: 500px;
+    }
+
+    .container {
+        margin: auto;
+    }
+
+    #copy {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .container {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo-header {
+        width: 400px;
+    }
+    main {
+        width: 100%;
+    }
+
+    hr {
+        width: 400px;
+    }
+   
+}
+
+@media (max-width: 500px) {
+
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        width: 400px;
+    }
+
+   
+
+   
+ 
+}
+
+@media (max-width: 485px) {
+    .item {
+        width: 300px;
+    }
+    #copy {
+        font-size: 11px;
+    }
+
+
+    footer {
+        margin-bottom: 40px;
+    }
+
+    .other-logo {
+        width: 300px;
+    }
+
+    hr {
+        width: 300px;
+    }
+}
+
+@media (max-width: 385px) {
+
+    main {
+        width: 100%;
+    }
+
+    
+    section {
+        width: 300px;
+    }
+
+    .logo-header {
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    main {
+        width: 100%;
+    }
+
+    .item {
+        width: 200px;
+    }
+
+    .logo-header {
+        width: 240px;
+    }
+
+    #copy {
+        font-size: 9px;
+    }
+
+    section {
+        width: 200px;
+    }
+
+    hr {
+        width: 200px;
+    }
+
+    .other-logo {
+        width: 200px;
+    }
+
+    .icons {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 270px) {
+
+
+    main {
+        width: 100%;
+    }
+
+    .item {
+        width: 200px;
+    }
+
+    .logo-header {
+        width: 220px;
+    }
+
+  
+
+    .other-logo {
+        width: 200px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .icons {
+        font-size: 21px;
+    }
+}
+
+
+@media (max-width: 210px) {
+
+    .logo-header{
+        width: 150px;
+    }
+    hr {
+        width: 100px;
+    }
+
+    .item {
+        width: 140px;
+    }
+
+    #copy {
+        font-size: 9px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .icons {
+        font-size: 10px;
+    }
+
+    .other-logo {
+        width: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
